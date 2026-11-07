@@ -1,0 +1,9 @@
+**/node_modules
+**/.venv
+**/__pycache__
+**/.pytest_cache
+**/.coverage
+frontend/dist
+.git
+.claude
+**/.DS_Store

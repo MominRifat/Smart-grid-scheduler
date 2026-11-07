@@ -1,0 +1,20 @@
+{
+  "_story": "Built by us: 'Evening rush'. Noon shops are worth a little, evening shops a lot, and diesel is tight. Hour-by-hour greedy fills the generator at noon and runs dry at 19:00.",
+  "grid_available": [true, true, false, false, false, true, true, false, false, false],
+  "generator_capacity_kw": 12,
+  "fuel_budget_litres": 9.00,
+  "fuel_table": [
+    {"load_kw": 4, "litres_per_hour": 0.90},
+    {"load_kw": 8, "litres_per_hour": 1.50},
+    {"load_kw": 12, "litres_per_hour": 2.10}
+  ],
+  "max_consecutive_dark": 2,
+  "shops": [
+    {"id": "insulin_fridge", "kw": 2, "type": "mandatory", "value_per_slot": [9,9,9,9,9,9,9,9,9,9]},
+    {"id": "photocopy", "kw": 3, "type": "normal", "value_per_slot": [4,4,4,4,3,2,1,1,1,1]},
+    {"id": "tailor", "kw": 4, "type": "normal", "value_per_slot": [3,3,3,3,3,3,3,4,4,4]},
+    {"id": "mobile_shop", "kw": 3, "type": "normal", "value_per_slot": [1,1,1,1,1,2,4,9,10,10]},
+    {"id": "restaurant", "kw": 5, "type": "normal", "value_per_slot": [2,2,6,6,3,2,3,8,9,9]},
+    {"id": "tea_stall", "kw": 1, "type": "normal", "value_per_slot": [2,2,2,2,2,2,2,3,3,3]}
+  ]
+}

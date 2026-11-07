@@ -1,0 +1,38 @@
+# docker compose up --build          -> app on http://localhost:8088 (screen + POST /api/roster)
+# docker compose --profile test up --build --abort-on-container-exit   -> run all test suites
+name: who-stays-on
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+      target: runtime
+    # not published: nginx serves the screen AND /api/roster on one port, so only one port can ever clash
+    expose:
+      - "8000"
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      target: runtime
+    ports:
+      - "${APP_PORT:-8088}:8080"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+
+  backend-tests:
+    profiles: ["test"]
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+      target: test
+
+  frontend-tests:
+    profiles: ["test"]
+    build:
+      context: ./frontend
+      target: test

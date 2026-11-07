@@ -1,0 +1,5 @@
+FAIL 18:00: mandatory insulin_fridge is dark
+FAIL 19:00: mandatory insulin_fridge is dark
+FAIL photocopy: dark 3 hours in a row > 2
+FAIL tailor: dark 3 hours in a row > 2
+FAIL mobile_shop: dark 3 hours in a row > 2

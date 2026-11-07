@@ -1,0 +1,1 @@
+{"status":"invalid_input","field":"shops[0].value_per_slot[0]","message":"shops[0].value_per_slot[0]: must be <= 1000000000000"}

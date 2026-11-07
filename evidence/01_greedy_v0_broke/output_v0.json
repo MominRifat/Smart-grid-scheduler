@@ -1,0 +1,169 @@
+{
+  "status": "ok",
+  "roster": [
+    {
+      "slot": 2,
+      "hour": "12:00",
+      "powered": [
+        "insulin_fridge",
+        "restaurant",
+        "photocopy",
+        "tea_stall"
+      ],
+      "dark": [
+        {
+          "id": "tailor",
+          "reason": "lower value than the shops picked first this hour"
+        },
+        {
+          "id": "mobile_shop",
+          "reason": "lower value than the shops picked first this hour"
+        }
+      ],
+      "load_kw": 11,
+      "fuel_litres": 2.1
+    },
+    {
+      "slot": 3,
+      "hour": "13:00",
+      "powered": [
+        "insulin_fridge",
+        "restaurant",
+        "photocopy",
+        "tea_stall"
+      ],
+      "dark": [
+        {
+          "id": "tailor",
+          "reason": "lower value than the shops picked first this hour"
+        },
+        {
+          "id": "mobile_shop",
+          "reason": "lower value than the shops picked first this hour"
+        }
+      ],
+      "load_kw": 11,
+      "fuel_litres": 2.1
+    },
+    {
+      "slot": 4,
+      "hour": "14:00",
+      "powered": [
+        "insulin_fridge",
+        "photocopy",
+        "tailor",
+        "tea_stall"
+      ],
+      "dark": [
+        {
+          "id": "mobile_shop",
+          "reason": "lower value than the shops picked first this hour"
+        },
+        {
+          "id": "restaurant",
+          "reason": "lower value than the shops picked first this hour"
+        }
+      ],
+      "load_kw": 10,
+      "fuel_litres": 2.1
+    },
+    {
+      "slot": 7,
+      "hour": "17:00",
+      "powered": [
+        "insulin_fridge",
+        "mobile_shop",
+        "restaurant",
+        "tea_stall"
+      ],
+      "dark": [
+        {
+          "id": "photocopy",
+          "reason": "lower value than the shops picked first this hour"
+        },
+        {
+          "id": "tailor",
+          "reason": "lower value than the shops picked first this hour"
+        }
+      ],
+      "load_kw": 11,
+      "fuel_litres": 2.1
+    },
+    {
+      "slot": 8,
+      "hour": "18:00",
+      "powered": [],
+      "dark": [
+        {
+          "id": "insulin_fridge",
+          "reason": "lower value than the shops picked first this hour"
+        },
+        {
+          "id": "photocopy",
+          "reason": "lower value than the shops picked first this hour"
+        },
+        {
+          "id": "tailor",
+          "reason": "lower value than the shops picked first this hour"
+        },
+        {
+          "id": "mobile_shop",
+          "reason": "lower value than the shops picked first this hour"
+        },
+        {
+          "id": "restaurant",
+          "reason": "lower value than the shops picked first this hour"
+        },
+        {
+          "id": "tea_stall",
+          "reason": "lower value than the shops picked first this hour"
+        }
+      ],
+      "load_kw": 0,
+      "fuel_litres": 0.0
+    },
+    {
+      "slot": 9,
+      "hour": "19:00",
+      "powered": [],
+      "dark": [
+        {
+          "id": "insulin_fridge",
+          "reason": "lower value than the shops picked first this hour"
+        },
+        {
+          "id": "photocopy",
+          "reason": "lower value than the shops picked first this hour"
+        },
+        {
+          "id": "tailor",
+          "reason": "lower value than the shops picked first this hour"
+        },
+        {
+          "id": "mobile_shop",
+          "reason": "lower value than the shops picked first this hour"
+        },
+        {
+          "id": "restaurant",
+          "reason": "lower value than the shops picked first this hour"
+        },
+        {
+          "id": "tea_stall",
+          "reason": "lower value than the shops picked first this hour"
+        }
+      ],
+      "load_kw": 0,
+      "fuel_litres": 0.0
+    }
+  ],
+  "value_total": 88,
+  "fuel_total_litres": 8.4,
+  "dark_hours": {
+    "insulin_fridge": 2,
+    "photocopy": 3,
+    "tailor": 5,
+    "mobile_shop": 5,
+    "restaurant": 3,
+    "tea_stall": 2
+  }
+}

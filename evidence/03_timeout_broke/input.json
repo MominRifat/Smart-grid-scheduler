@@ -1,0 +1,242 @@
+{
+  "_story": "Built by our stress generator (seed 26): 12 shops, 33 kW generator, 4-level fuel table, 10 outage hours, max 2 dark hours in a row. It broke the 10-second rule in an earlier version.",
+  "grid_available": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "generator_capacity_kw": 33,
+  "fuel_budget_litres": 26.36,
+  "fuel_table": [
+    {
+      "load_kw": 4,
+      "litres_per_hour": 0.69
+    },
+    {
+      "load_kw": 14,
+      "litres_per_hour": 2.01
+    },
+    {
+      "load_kw": 28,
+      "litres_per_hour": 2.97
+    },
+    {
+      "load_kw": 33,
+      "litres_per_hour": 3.81
+    }
+  ],
+  "max_consecutive_dark": 2,
+  "shops": [
+    {
+      "id": "s0",
+      "kw": 3,
+      "type": "normal",
+      "value_per_slot": [
+        19,
+        15,
+        12,
+        11,
+        7,
+        18,
+        0,
+        0,
+        9,
+        17
+      ]
+    },
+    {
+      "id": "s1",
+      "kw": 9,
+      "type": "normal",
+      "value_per_slot": [
+        16,
+        1,
+        20,
+        0,
+        14,
+        19,
+        17,
+        10,
+        10,
+        13
+      ]
+    },
+    {
+      "id": "s2",
+      "kw": 7,
+      "type": "normal",
+      "value_per_slot": [
+        6,
+        1,
+        8,
+        6,
+        19,
+        12,
+        13,
+        19,
+        16,
+        4
+      ]
+    },
+    {
+      "id": "s3",
+      "kw": 1,
+      "type": "normal",
+      "value_per_slot": [
+        2,
+        4,
+        17,
+        17,
+        1,
+        1,
+        13,
+        6,
+        11,
+        19
+      ]
+    },
+    {
+      "id": "s4",
+      "kw": 2,
+      "type": "normal",
+      "value_per_slot": [
+        10,
+        3,
+        13,
+        1,
+        13,
+        14,
+        18,
+        2,
+        1,
+        11
+      ]
+    },
+    {
+      "id": "s5",
+      "kw": 2,
+      "type": "normal",
+      "value_per_slot": [
+        7,
+        2,
+        4,
+        8,
+        11,
+        19,
+        13,
+        11,
+        16,
+        15
+      ]
+    },
+    {
+      "id": "s6",
+      "kw": 7,
+      "type": "normal",
+      "value_per_slot": [
+        1,
+        1,
+        4,
+        18,
+        0,
+        16,
+        3,
+        19,
+        15,
+        1
+      ]
+    },
+    {
+      "id": "s7",
+      "kw": 3,
+      "type": "normal",
+      "value_per_slot": [
+        1,
+        0,
+        13,
+        1,
+        9,
+        13,
+        5,
+        2,
+        9,
+        5
+      ]
+    },
+    {
+      "id": "s8",
+      "kw": 2,
+      "type": "normal",
+      "value_per_slot": [
+        19,
+        1,
+        0,
+        13,
+        17,
+        0,
+        8,
+        15,
+        10,
+        20
+      ]
+    },
+    {
+      "id": "s9",
+      "kw": 9,
+      "type": "normal",
+      "value_per_slot": [
+        12,
+        0,
+        3,
+        3,
+        6,
+        14,
+        7,
+        9,
+        7,
+        4
+      ]
+    },
+    {
+      "id": "s10",
+      "kw": 9,
+      "type": "normal",
+      "value_per_slot": [
+        12,
+        19,
+        10,
+        2,
+        16,
+        20,
+        2,
+        4,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "s11",
+      "kw": 3,
+      "type": "normal",
+      "value_per_slot": [
+        7,
+        10,
+        2,
+        6,
+        8,
+        10,
+        13,
+        15,
+        6,
+        15
+      ]
+    }
+  ]
+}

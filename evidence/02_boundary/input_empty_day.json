@@ -1,0 +1,25 @@
+{
+  "_story": "Boundary: no outages and no shops -> ok with an empty roster and zero totals.",
+  "grid_available": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "generator_capacity_kw": 5,
+  "fuel_budget_litres": 0,
+  "fuel_table": [
+    {
+      "load_kw": 5,
+      "litres_per_hour": 1.0
+    }
+  ],
+  "max_consecutive_dark": 2,
+  "shops": []
+}

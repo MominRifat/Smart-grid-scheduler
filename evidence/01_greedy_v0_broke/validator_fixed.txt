@@ -1,0 +1,1 @@
+OK  status=ok value=102 fuel=9.0

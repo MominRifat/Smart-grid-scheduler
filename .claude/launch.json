@@ -1,0 +1,22 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "who-stays-on",
+      "runtimeExecutable": "/Users/mehrab/Desktop/Codes/hackathon/backend/.venv/bin/uvicorn",
+      "runtimeArgs": [
+        "--app-dir",
+        "/Users/mehrab/Desktop/Codes/hackathon/backend",
+        "app.main:app",
+        "--port",
+        "8000"
+      ],
+      "port": 8000
+    },
+    {
+      "name": "docker-app",
+      "url": "http://localhost:8088",
+      "port": 8088
+    }
+  ]
+}
